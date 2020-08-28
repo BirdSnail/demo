@@ -4,5 +4,8 @@
 会出现404异常。
 
 当我将`@Controller`换成`@RestController`后可以正常访问。
+> git checkout restcontroller
 
 **why?**
+
+已知该问题出现`GET`方法上，`POST`不会出现这中情况
