@@ -1,5 +1,6 @@
 package com.birdsnail.example.demo;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author BirdSnail
  * @date 2020/8/28
  */
-@RestController
+@Controller
 @RequestMapping("/test/user")
 public class UserTestController {
 
